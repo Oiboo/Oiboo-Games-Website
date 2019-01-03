@@ -1,0 +1,17 @@
+document.write( '<section id=\"newsletter\">\n' );
+document.write( '           <div id=\"container\">\n' );
+document.write( '\n' );
+document.write( '\n' );
+document.write( '               <a href=\"https://turtlecoin.lol/\" target=\"_blank\"><img src=\"./img/trtllogo.png\" alt=\"trtl logo\" height=\"40\" width=\"40\"></a>\n' );
+document.write( '               <a href=\"http://chat.turtlecoin.lol/\" target=\"_blank\"><img src=\"./img/Discord.png\" alt=\"discord logo\" height=\"40\" width=\"40\"></a>\n' );
+document.write( '               <a href=\"https://github.com/turtlecoin/turtlecoin/wiki\" target=\"_blank\"><img src=\"./img/github.png\" alt=\"github logo\" height=\"40\" width=\"40\"></a>\n' );
+document.write( '\n' );
+document.write( '\n' );
+document.write( '      <h1>Learn more about TurtleCoin </h1>\n' );
+document.write( '    </div>\n' );
+document.write( '\n' );
+document.write( '\n' );
+document.write( '         </section>\n' );
+document.write( '    <div id=\"bot\">\n' );
+document.write( '         Oiboo\'s Game Emporium &copy; 2018\n' );
+document.write( '         </div>' );

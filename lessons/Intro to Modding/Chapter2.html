@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Online games for the TRTL community">
+    <meta name="keywords" content="gamedesign, turtlecoin, learn, oiboo, Crypto,lessons,dev,code">
+    <meta name="author" content="Oiboo">
+    <title>Oiboo's Game Emporium | MOD</title>
+    <link rel="stylesheet" href = "../../css/style.css"/>
+    <link rel="icon" href = "../../img/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv=“Expires” content=”-1″>
+    <link href="common.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body background="../../img/bg.png" >
+
+    <!-- IDEA:  -->
+
+    <header>
+      <div id="menu">
+        <!-- Use any element to open the sidenav -->
+        <h1><span style="font-size:3vh;cursor:pointer" onclick="openNav()">&#9776; Menu</span></h1>
+        <!-- logo -->
+          <img src="../../img/icon.png" alt="Oiboo logo" style="float:middle;width:15vh ;height:15vh;"  >
+
+        <!--  <h2><input type="text" name="" value=""></h2>-->
+  <!-- menu -->
+        </div>
+
+       <div id="mySidenav" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="../../index.html">Home</a>
+         <a href="../../games.html">Games</a>
+         <a href="../Lessons.html">Learn</a>
+         <a href="../../contact.html">Contact</a>
+         <a href="../../links.html">Links</a>
+
+       </div>
+
+
+       <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     </header>
+
+     <!-- START OF PAGE  -->
+      <div id="bulk">
+      <div id="body">
+
+
+      <!-- GAP AT TOP OF PAGE FOR HEADER-->
+      <div class="placeholder"></div>
+
+
+
+     <div class ="slideshow-container">
+       <div id="lesson">
+         <h1>Chapter 2 </h1>
+         <h3>Files and Formats</h3>
+       </div>
+         <div id = "lesson">
+           <h2><u>What are we actually modifying?</u></h2>
+         <p>
+           Personally I reccomend trying out all the different game engines we have talked about so far. Try and find your favorite for each "type" of project you work on.
+  </p>
+  <p>
+  Even with all these different game engines and coding languages most of the file structures and expected file formats are the same!
+  </p>
+  <p>
+For example:
+</p>
+
+<p>
+<b> <i>Phaser</i></b> is a light weight Javascript game engine, there are no "visual ques" or drop down boxes, just a library of functions you can interact with. This makes it perfect for simple 2D HTML 5 games, with low load times and simple functionality eg <i>"PONG"</i> and <i>"SNAKE"</i>
+</p>
+<p>Below, left is typically how a javascript games coding will look, Right is <b> <i>GT3000</i> </b>'s awesome Turtle Snake game!</p>
+<img src="../img/phaser_demo.png" alt="phaserdemo" width=40%>
+<img src="../img/trtl_snake.png" alt="trtl snake" width=40%>
+<p>
+<b> <i>Unreal engine</i></b> and <b> <i>Unity</i></b> on the other hand are mammoth C#/C++ engines with user interfaces including full 3D shaders, ray tracing dynamic lighting, multiple camera setups, cutscenes... the LOT!
+</p>
+<p>Left is the main <i>"Scene"</i> view of UE4, Right is some <i>Blueprint</i> coding </p>
+<img src="../img/unreal.jpg" alt="unreal" width=40%>
+<img src="../img/blup.png" alt="blueprints" width=40%>
+<p>
+These engines allow you to make full "AAA" games for high end hardware and they are also pushing the boundries of what we expect to see from  "mobile" or "browser" gaming.
+</p>
+<p>Just look at "Fortnite"(Ue4)  or "Oddworld- New 'n' Tasty"(Unity) on mobile</p>
+<img src="../img/fortn.png" alt="fortnite" width=40%>
+<img src="../img/abe.jpg" alt="abe new n tasty" width=40%>
+<p>You can still make small simple games on UE4 and Unity, but expect longer load times and larger file sizes due to the BIG engine that your game is running on.</p>
+<p>Left UE4 Tappy chicken, Right Unity Temple Run</p>
+<img src="../img/tappyscreen.jpg" alt="tappy chicken UE4" width=20%>
+<img src="../img/TempleRun.jpeg" alt="temple run unity" width=40%>
+
+</div>
+<div id="lesson">
+<h2><u>What is a Video Game made of?</u></h2>
+<p>At its core a video game is a set of images and sounds with some code telling them to do different things at different times. </p>
+<p>E.g.</p>
+<p>Player Presses "LEFT" button</p>
+<p>Character Moves "LEFT"</p>
+<p>Character Sprite  changes to "WALK" animation</p>
+<p>Play walking sound</p>
+<p>Player lets go of "LEFT" button</p>
+<p>Character stops moving</p>
+<p>Animation changes to "IDLE" animation</p>
+<p>Stop walking sound</p>
+<p>Along with our images and code will be the "GAME ENGINE" you have chosen to use. This will be the main brain and framework of your game that all these images, 3d models and code are running in.</p>
+
+
+</div>
+<div id="lesson">
+  <h2><u>File Formats</u></h2>
+
+<p>
+The most common type of files we are going to see are "Png" and "Jpeg"
+</p>
+<p>But dont be suprised to find some ".psd" ".tga" ".gif" ".tiff" ".svg"</p>
+<p>
+On first appearence they all might look the same, but they have a variety of different uses.
+</p>
+<hr>
+ <h3><u>PNG</u></h3>
+ <img src="../img/demo_png.png" alt="demo png" width=20%>
+ <p>
+Lossless compression, when the file is uncompressed the information is still "stored"
+</p>
+<table style="width:100%">
+<tr>
+  <th>Pro</th>
+  <th>Con</th>
+</tr>
+<tr>
+  <td>transparancy</td>
+  <td>Larger file sizes</td>
+  </tr>
+  <tr>
+    <td>Great for text</td>
+
+    </tr>
+</table>
+
+<hr>
+ <h3><u>Jpeg</u></h3>
+ <img src="../img/demo_jpg.jpg" alt="demo jpg" width=20%>
+ <p>
+ Lossy compression, everytime you open and edit the file, the quality will degrade, every export will permenantly delete "the compressed" data
+</p>
+ <table style="width:100%">
+ <tr>
+   <th>Pro</th>
+   <th>Con</th>
+ </tr>
+ <tr>
+   <td>Small File size</td>
+   <td>NO transparancy</td>
+   </tr>
+
+ </table>
+
+  <p>
+So a big background picture may be a "JPEG" 1080p image. Where the character sprite would be a "PNG", sprite sheet with multiple images and transparancy.
+</p>
+<p>But there is always the posibility that neither file type is used, and instead the characters and shapes are drawn with primitive components or referenced in external libraries</p>
+<h4>Drawn with HTML 5 canvas components</h4>
+<img src="../img/turtris.png" alt="turtris draw blocks code" width=60%>
+<p>In these situations, the game can still be modified but some coding experience will be required!</p>
+
+</div>
+<div id="lesson">
+<p>
+Lets have a look at a couple of projects.
+</p>
+<hr>
+<p>
+  <h3><u> Javascript Project</u></h3>
+
+
+</p>
+<p>
+I am using Robert Kleffner's Mario HTML 5 ported from the Java version by Notch (Markus Persson).<a href="https://github.com/robertkleffner/mariohtml5">Link to code</a>
+</p>
+<p>Word of warning, this code did come with a nice javascript crypto miner hidden under "midi.js"</p>
+<p><u>Always take caution when downloading from "unknown" sources</u></p>
+<p> 1 | On the left is the game running in the brower, on the right the main file structure </p>
+
+<p><img src="../img/mario_java.png" alt="mario java" width=60%></p>
+<p> 2 | Next we click inside the "Images" Folder</p>
+<p><img src="../img/js_img.png" alt="Image folder" width=60%></p>
+<p> 3 | Open an image in your editor of choice</p>
+<p><img src="../img/openimage.png" alt="open image" width=60%></p>
+<p> 4 | Replace the image</p>
+<p><img src="../img/editimage.png" alt="edit image" width=60%></p>
+<p> 5 | If your new image has the same name and proportions it should now be running with your new image</p>
+<p><img src="../img/mario_mod.png" alt="mario mod" width=60%></p>
+
+
+<p>Now only 14 more images to change and we have our awesome custom modded game!</p>
+<p>Someone please make this with turtles!</p>
+
+  <hr>
+  <h3><u> Unreal Engine (UE4) project</u></h3>
+<p>Next we are using Tappy Chicken from the Unreal Sample Projects <a href="https://wiki.unrealengine.com/Tappy_Chicken_Sample_Game">Link to code</a> </p>
+<p> 1 | Here is the project opened in the editor</p>
+<p><img src="../img/tappy.png" alt="tappy chicken" width=60%></p>
+<p> 2 |Next we have to find the assets</p>
+<p><img src="../img/findfiles.png" alt="find tappy assets" width=60%></p>
+<p> 3 |Edit the image</p>
+<p><img src="../img/tappyedit.gif" alt="edit tappy assets" width= 40%></p>
+<p> 4 |Reimport the image</p>
+<p><img src="../img/reimport.png" alt="reimport tappy assets" width=60%></p>
+<p> 5 |Now the game has been modded!</p>
+<p><img src="../img/profit.png" alt="modded flappy turtle" width=60%></p>
+
+
+
+<p>
+Notice the similarity in both engines, the process is the same. Find the assets and change them!
+</p>
+<hr>
+<h3>Conclusion</h3>
+<p>
+So, the most important information we need to get from the game we are modding  is the "size" of the images and the "file types" we need to modify!
+</p>
+<p>
+If the player is a "32 x 32" pixel "sprite" and they have 8 "frames" to an animation, expect to see a "(32 x 4) x (32 x 2)" pixel image  "128px X 64px"
+</p>
+ <img src="../img/8frame.png" alt="8 frame sprite" width=40%>
+<p>
+We want to make sure we replace the image with one of equal size and dimensions so any code that is used to cut up and animate the sprite does not need to be changed.
+For simplicity we want to keep the name identicle for now, but when you feel more confident, try and find the references to the image(s) in the code and rename them yourself!
+</p>
+ <img src="../img/img_ref.png" alt="look for images to replace" width=60%>
+ <p>The green highlighted text is "images"</p>
+ <p>If all this code looks like a scary mess dont worry! It can be put through a js beautifier if you are working on it properly to reformat it </p>
+
+</div>
+
+
+
+
+
+     <div id="nextbutton">
+   <a href="Chapter1.html"> <img id="back" src="../img/back.png" alt="back button" ></a>
+   <a href="Chapter3.html"> <img id="next" src="../img/next.png" alt="next button" ></a>
+     </div>
+      </div>
+    </div>
+      <div id="footer">
+
+
+         <section id="newsletter">
+           <div id="container">
+
+
+               <a href="https://turtlecoin.lol/" target="_blank"><img src="../../img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
+               <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="../../img/Discord.png" alt="discord logo" height="40" width="40"></a>
+               <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="../../img/github.png" alt="github logo" height="40" width="40"></a>
+
+
+      <h1>Learn more about TurtleCoin </h1>
+     </div>
+
+
+         </section>
+     <div id="bot">
+
+
+
+           Oiboo's Game Emporium &copy; 2018
+         </div>
+        </div>
+        </div>
+      </body>
+     </html>
