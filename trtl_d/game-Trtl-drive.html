@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -10,14 +10,17 @@
     <link rel="stylesheet" href = "../css/style.css"/>
     <link rel="icon" href = "../img/icon.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv=“Expires” content=”-1″>
     <link href="common.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+
   </head>
   <body background="../img/bg.png" >
 
     <!-- IDEA:  -->
 
     <header>
-      <div>
+      <div  id="menu">
         <!-- Use any element to open the sidenav -->
         <h1><span style="font-size:3vh;cursor:pointer" onclick="openNav()">&#9776; Menu</span></h1>
         <!-- logo -->
@@ -31,8 +34,9 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
          <a href="../index.html">Home</a>
          <a href="../games.html">Games</a>
-         <a href="../contact.html">Contact</a>
+         <a href=".././lessons/Lessons.html">Learn</a>
          <a href="../links.html">Links</a>
+         <a href="../contact.html">Contact</a>
 
        </div>
 
@@ -48,8 +52,13 @@ function closeNav() {
 </script>
      </header>
 
-<!-- welcome banner  -->
-<img id="bg2"src="../img/mainlogo.png" alt="Oiboo's Games Emporium Banner" >
+     <!-- START OF PAGE  -->
+     <div id="bulk">
+     <div id="body">
+
+
+     <!-- GAP AT TOP OF PAGE FOR HEADER-->
+     <div class="placeholder"></div>
 
      <div class ="slideshow-container">
        <div id="welcome">
@@ -106,8 +115,12 @@ function closeNav() {
            </table>
 
            <div id='instructions'>
-             <p>Use the <b>arrow keys</b> to drive the car.</p>
+             <p>Use  <b>W,A,S,D</b> to drive the car.</p>
+              <p>If the game <b>"dissapears"</b> Try clearing your cache! Sorry</p>
            </div>
+
+
+
 
            <div id="racer">
              <div id="hud">
@@ -651,10 +664,10 @@ function closeNav() {
                canvas: canvas, render: render, update: update, stats: stats, step: step,
                images: ["background", "sprites"],
                keys: [
-                 { keys: [KEY.LEFT,  KEY.A], mode: 'down', action: function() { keyLeft   = true;  } },
-                 { keys: [KEY.RIGHT, KEY.D], mode: 'down', action: function() { keyRight  = true;  } },
-                 { keys: [KEY.UP,    KEY.W], mode: 'down', action: function() { keyFaster = true;  } },
-                 { keys: [KEY.DOWN,  KEY.S], mode: 'down', action: function() { keySlower = true;  } },
+                 { keys: [KEY.LEFT,  KEY.A], mode: 'down', action: function() { keyLeft   = true;e.preventDefault();   } },
+                 { keys: [KEY.RIGHT, KEY.D], mode: 'down', action: function() { keyRight  = true;e.preventDefault();  } },
+                 { keys: [KEY.UP,    KEY.W], mode: 'down', action: function() { keyFaster = true;e.preventDefault();  } },
+                 { keys: [KEY.DOWN,  KEY.S], mode: 'down', action: function() { keySlower = true; e.preventDefault();  } },
                  { keys: [KEY.LEFT,  KEY.A], mode: 'up',   action: function() { keyLeft   = false; } },
                  { keys: [KEY.RIGHT, KEY.D], mode: 'up',   action: function() { keyRight  = false; } },
                  { keys: [KEY.UP,    KEY.W], mode: 'up',   action: function() { keyFaster = false; } },
@@ -729,47 +742,38 @@ function closeNav() {
 
 
 
-         <div id="fpgames">
-           <h1>Games</h1>
+         <div >
 
-
-
-           <div class="row">
-             <div class="column">
-               <h2>Online</h2>
-               <a href ="../turtacus.html" ><img src="../img/Turtacus_mini_box.png" alt="Turtacus Colluseum"></a>
-               <a href ="../trtlsimon.html" ><img src="../img/trtlsimon_mini_box.png" alt="Trtl Simon"></a>
-               <a href ="../swanson.html" ><img  src="../img/Swansom_mini_box.png" alt="Swanson Clicker"></a>
-               <a href ="../trtlsnake.html" ><img src="../img/trtlsnake_mini_box.png" alt="Turtle Snake"></a>
-               <a href ="../trtltrouble.html"><img  src="../img/trtl_trub_mini_box.png" alt="Turtle Trouble"></a>
-               <a href ="../mechatrtl.html" ><img src="../img/mecha_trtl_mini_box.png" alt="Hyper logo"></a>
-             </div>
-             <div class="column">
-                <h2>Download</h2>
-                <a href ="../trtl_sim.html"><img src="../img/trtlsim_mini_box.png" alt="Turtle Simulator"></a>
-             </div>
-           </div>
+           <script src="../js/games_list_int.js"></script>
   </div>
 
        </div>
 
      </div>
-     <section id="newsletter">
-       <div id="container">
+     <div id="footer">
 
-         <p>
-           <a href="https://turtlecoin.lol/" target="_blank"><img src="../img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
-           <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="../img/Discord.png" alt="discord logo" height="40" width="40"></a>
-           <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="../img/github.png" alt="github logo" height="40" width="40"></a>
-         </p>
-           <h1>Learn more about Turtlecoin </h1>
+
+         <section id="newsletter">
+           <div id="container">
+
+
+               <a href="https://turtlecoin.lol/" target="_blank"><img src="../img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
+               <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="../img/Discord.png" alt="discord logo" height="40" width="40"></a>
+               <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="../img/github.png" alt="github logo" height="40" width="40"></a>
+
+
+      <h1>Learn more about TurtleCoin </h1>
+    </div>
+
+
+         </section>
+    <div id="bot">
+
+
+
+           Oiboo's Game Emporium &copy; 2018
          </div>
-     </section>
-
-     <footer>
-       <p>Oiboo's Game Emporium, Copyright &copy; Oiboo Games 2018</p>
-       <p>Donate to TRTL Arcade :</p>
-       <p style="font-size:10">TRTLuxiLMKMBVe1QfSbmcia5cK25xAkEudxbecWRZ74QQHtVdfUiquiCpuLx4BX4gFJqD5JJCj44EPdyRjTNwBWzBRXfvDgmky7</p>
-     </footer>
-  </body>
-</html>
+        </div>
+        </div>
+      </body>
+    </html>
