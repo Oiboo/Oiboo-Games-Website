@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,17 +9,18 @@
     <title>Oiboo's Game Emporium | Welcome</title>
     <link rel="stylesheet" href = "./css/style.css"/>
     <link rel="icon" href = "./img/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
   </head>
   <body background="./img/bg.png">
 
     <!-- Header Floating:  -->
 
     <header>
-      <div>
+      <div id="menu">
         <!-- Use any element to open the sidenav -->
-        <h1><span style="font-size:3vh;cursor:pointer" onclick="openNav()">&#9776; Menu</span></h1>
-        <!-- logo -->
-          <img src="./img/icon.png" alt="Oiboo logo" style="float:middle; width:15vh ;height:15vh;"  >
+        <h1><span style="font-size:3vh;cursor:pointer;" onclick="openNav()">&#9776; Menu</span></h1>
+        <!-- logo-->
+          <img src="./img/icon.png" alt="Oiboo logo" style="float:middle;width:15vh ;height:15vh;"  >
 
         <!--  <h2><input type="text" name="" value=""></h2>-->
   <!-- menu -->
@@ -26,10 +28,11 @@
 
        <div id="mySidenav" class="sidenav">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <a href="#">Home</a>
+         <a href="index.html">Home</a>
          <a href="games.html">Games</a>
-         <a href="contact.html">Contact</a>
+         <a href="./lessons/Lessons.html">Learn</a>
          <a href="links.html">Links</a>
+         <a href="contact.html">Contact</a>
 
 
        </div>
@@ -45,7 +48,9 @@ function closeNav() {
 }
 </script>
      </header>
+<!--
 <img id="bg2"src="./img/mainlogo.png" alt="Oiboo's Games Emporium Banner" >
+-->
 <!-- welcome banner
 <section id="showcase">
   <div class="container">
@@ -54,12 +59,39 @@ function closeNav() {
     </div>
 </section> -->
 <!-- Featured:  -->
-     <div class="Slideshow">
+
+<div id="bulk">
+<div id="body">
+
+
+
+<div class="placeholder"></div>
+    <div class="slideshow">
+
 
 
 
    <div class="slideshow-container">
+     <div id="welcome">
+       <div class="head">
+         <div id="welcome">
+
+       <h1>Welcome to Oiboo's Game Emporium</h1>
+       <h1>The TurtleCoin Community Arcade Project</h1>
+     </div>
+   </div>
+       <p>This Project has been designed to teach and showcase the great talents of the TurtleCoin community </p>
+     <p>Click on Make Games to find tutorials and ongoing projects. </p>
+     <p>Or click Play Games to play some of the community's great games!</p>
+     <p>Enjoy your stay!  -- Oiboo</p>
+     </div>
+     <div id="welcome">
+<h2>FEATURED GAMES</h2>
+</div>
+
+
      <div class="mySlides fade">
+
        <div class="numbertext">1 / 4</div>
        <a href="games.html"><img src="./img/oiboogame.png" style="width:100%"></a>
        <div class="text">Fun for the TRTL community </div>
@@ -114,40 +146,50 @@ function closeNav() {
      </script>
 
 
+</div>
 
-     </div>
-     <div id="container">
-       <div id="welcome">
-         <h1>Welcome to Oiboo's Game Emporium</h1>
 
-       <p>This website has been designed to be a collection of all the wonderful games and fun projects made by the TRTL community! </p>
-       <p>Racing, Clicking, Fighting and Adventuring, there is enough to keep you entertained for a minute or two!</p>
+       <div id="container">
+         <div id="welcome2">
+
        <h3>HOLD ON, IS SOMETHING MISSING?</h3>
-       <p>If you think any project is missing please get in <a href="contact.html">contact</a>!</p>
+       <p>If a project is missing please get in <a href="contact.html">contact</a>!</p>
 
        <div id="fpgames">
 
-         <a href="games.html" ><img src="img/more games_small.png" style="float:middle; height:15vw;"/></a>
+         <a href="./lessons/Lessons.html" ><img src="img/make games_small.png" style="float:middle; height:10vw;"/></a>
+         <a href="games.html" ><img src="img/more games_small.png" style="float:middle; height:10vw;"/></a>
+
 
        </div>
 
      </div>
+     </div>
+     </div>
+ <div id="footer">
+
+
      <section id="newsletter">
        <div id="container">
 
-         <p>
+
            <a href="https://turtlecoin.lol/" target="_blank"><img src="./img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
            <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="./img/Discord.png" alt="discord logo" height="40" width="40"></a>
            <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="./img/github.png" alt="github logo" height="40" width="40"></a>
-         </p>
-           <h1>Learn more about Turtlecoin </h1>
-         </div>
-     </section>
 
-     <footer>
-       <p>Oiboo's Game Emporium, Copyright &copy; Oiboo Games 2018</p>
-       <p>Donate TRTL :</p>
-       <p style="font-size:10">TRTLuxiLMKMBVe1QfSbmcia5cK25xAkEudxbecWRZ74QQHtVdfUiquiCpuLx4BX4gFJqD5JJCj44EPdyRjTNwBWzBRXfvDgmky7</p>
-     </footer>
+
+  <h1>Learn more about TurtleCoin </h1>
+</div>
+
+
+     </section>
+<div id="bot">
+
+
+
+       Oiboo's Game Emporium &copy; 2018
+     </div>
+    </div>
+    </div>
   </body>
 </html>

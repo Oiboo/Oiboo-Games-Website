@@ -8,13 +8,14 @@
     <title>Oiboo's Game Emporium | Contact</title>
     <link rel="stylesheet" href = "./css/style.css"/>
     <link rel="icon" href = "./img/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
   </head>
   <body background="./img/bg.png" >
 
     <!-- IDEA:  -->
 
     <header>
-      <div>
+      <div id="menu">
         <!-- Use any element to open the sidenav -->
         <h1><span style="font-size:3vh;cursor:pointer" onclick="openNav()">&#9776; Menu</span></h1>
         <!-- logo -->
@@ -28,8 +29,9 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
          <a href="index.html">Home</a>
          <a href="games.html">Games</a>
-         <a href="#">Contact</a>
+         <a href="./lessons/Lessons.html">Learn</a>
          <a href="links.html">Links</a>
+         <a href="contact.html">Contact</a>
 
        </div>
 
@@ -44,11 +46,15 @@ function closeNav() {
 }
 </script>
      </header>
+     <!-- START OF PAGE  -->
+     <div id="bulk">
+     <div id="body">
 
-<!-- welcome banner  -->
-<img id="bg2"src="./img/mainlogo.png" alt="Oiboo's Games Emporium Banner" >
 
-     <div id="container">
+     <!-- GAP AT TOP OF PAGE FOR HEADER-->
+     <div class="placeholder"></div>
+
+     <div class="slideshow-container">
        <div id="mbox">
          <h1>Contact</h1>
          <p> </p>
@@ -78,7 +84,7 @@ function closeNav() {
              <div class="column2">
                 <h2>Want Your Game Featured?</h2>
                 <p>
-                  If you have a TRTL project you want featured, or know of an awesome project I have missed, please don't hesitate to email me, or drop me a message on the #Dev-Gaming channel in the Official TRTL Discord.
+                  If you have a TRTL project you want featured, or know of an awesome project I have missed, please don't hesitate to email me, or drop me a message on the #Dev-Gaming channel in the Official TurtleCoin Discord.
                    </p>
                  <p>Thanks for stopping by!</p>
 
@@ -91,22 +97,13 @@ function closeNav() {
        </div>
 
      </div>
-     <section id="newsletter">
-       <div id="container">
+   </div>
+     <div id="footer">
+       <script src="./js/footer.js"></script>
 
-         <p>
-           <a href="https://turtlecoin.lol/" target="_blank"><img src="./img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
-           <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="./img/Discord.png" alt="discord logo" height="40" width="40"></a>
-           <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="./img/github.png" alt="github logo" height="40" width="40"></a>
-         </p>
-           <h1>Learn more about Turtlecoin </h1>
+
          </div>
-     </section>
+       </div>
 
-     <footer>
-       <p>Oiboo's Game Emporium, Copyright &copy; Oiboo Games 2018</p>
-       <p>Donate TRTL :</p>
-       <p style="font-size:10">TRTLuxiLMKMBVe1QfSbmcia5cK25xAkEudxbecWRZ74QQHtVdfUiquiCpuLx4BX4gFJqD5JJCj44EPdyRjTNwBWzBRXfvDgmky7</p>
-     </footer>
-  </body>
-</html>
+</body>
+    </html>
