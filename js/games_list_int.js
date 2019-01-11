@@ -14,6 +14,8 @@ document.write( '       <a href =\"../mechatrtl.html\" ><img id="hov2" src=\"../
 document.write( '       <a href =\"../trtlpuzzle.html\" ><img id="hov2" src=\"../img/trtl_puzz_mini_box.png\" alt=\"Trtl Puzzle\"></a>\n' );
 document.write( '       <a href =\"../turtris.html\" ><img id="hov2" src=\"../img/turtris_mini_box.png\" alt=\"Turtris\"></a>\n' );
 document.write( '       <a href =\"../bingo.html\" ><img id="hov2" src=\"../img/bingo_mini_box.png\" alt=\"Bingo\"></a>\n' );
+document.write( '       <a href =\"../onepagetrtl.html\" ><img id="hov2" src=\"../img/10trtl.png\" alt=\"10trtl\"></a>\n' );
+document.write( '       <a href =\"../Minecraft.html\" ><img id="hov2" src=\"../img/mine.png\" alt=\"minecraft trtl\"></a>\n' );
 document.write( '\n' );
 document.write( '\n' );
 document.write( '    </div>\n' );

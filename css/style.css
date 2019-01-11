@@ -298,9 +298,7 @@ img {vertical-align: middle;}
   border: 3px solid #A9A9A9;
 z-index: 5;
 }
-#fpgames h1{
 
-}
 #gameinfo{
   border: 3px solid #A9A9A9;
   text-align: center;
@@ -316,6 +314,8 @@ text-align: center;
 }
 .row {
     display: flex;
+align-content: center;
+
 }
 
 .column {
@@ -327,11 +327,14 @@ text-align: center;
     flex: 50%;
     border: 3px solid #A9A9A9;
 background-color:rgba(169, 169, 169, 0.6);
+
 }
+
 .column img{
 
    height:15vh;
 }
+
 /* Newsletter = TRTL BAR */
 
 #newsletter{
@@ -403,6 +406,7 @@ color: #ffffff;
 
 
 }
+
 .Title{
   font-size: 18px;
   border: 3px solid #A9A9A9;
