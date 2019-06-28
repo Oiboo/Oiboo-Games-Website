@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Online games for the TRTL community">
+    <meta name="keywords" content="gamedesign, turtlecoin, learn, oiboo, Crypto,lessons,dev,code">
+    <meta name="author" content="Oiboo">
+    <title>Oiboo's Game Emporium | MOD</title>
+    <link rel="stylesheet" href = "../../css/style.css"/>
+    <link rel="icon" href = "../../img/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv=“Expires” content=”-1″>
+    <link href="common.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body background="../../img/bg.png" >
+
+    <!-- IDEA:  -->
+
+    <header>
+      <div id="menu">
+        <!-- Use any element to open the sidenav -->
+        <h1><span style="font-size:3vh;cursor:pointer" onclick="openNav()">&#9776; Menu</span></h1>
+        <!-- logo -->
+          <img src="../../img/icon.png" alt="Oiboo logo" style="float:middle;width:15vh ;height:15vh;"  >
+
+        <!--  <h2><input type="text" name="" value=""></h2>-->
+  <!-- menu -->
+        </div>
+
+       <div id="mySidenav" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="../../index.html">Home</a>
+         <a href="../../games.html">Games</a>
+         <a href="../Lessons.html">Learn</a>
+         <a href="../../contact.html">Contact</a>
+         <a href="../../links.html">Links</a>
+<a href="../../Donate.html">Donate</a>
+
+
+       </div>
+
+
+       <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     </header>
+
+     <!-- START OF PAGE  -->
+        <div id="bulk">
+        <div id="body">
+
+
+        <!-- GAP AT TOP OF PAGE FOR HEADER-->
+        <div class="placeholder"></div>
+
+     <div class ="slideshow-container">
+       <div id="lesson">
+         <h1>Race Ring </h1>
+
+       </div>
+         <div id = "lesson">
+           <h2><u>Setting up a race</u></h2>
+           <a href="../img/trtlsim doc/racering.png" target="_blank"><img src="../img/trtlsim doc/racering.png" alt="" width=60%></a>
+         <p>
+Start by dragging the racering blueprint into the scene
+          </p>
+
+<hr>
+
+
+  <a href="../img/trtlsim doc/racering1.png"><img src="../img/trtlsim doc/racering1.png" alt="" width=60%></a>
+ <p>
+Note the Defaults Tab on the right
+ </p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering2.png"><img src="../img/trtlsim doc/racering2.png" alt="" width=60%></a>
+<p>
+Set the Max ring number you want in your race and the time limit
+</p>
+<p>You can set minutes and seconds</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering3.png"><img src="../img/trtlsim doc/racering3.png" alt="" width=60%></a>
+<p>
+Copy the race ring, Alt & drag
+</p>
+<p>You can resize and angle the rings to any size / orientation </p>
+<p>
+Continue to copy out as many race rings as you want
+</p>
+<p>Dont forget to re number the rings</p>
+<p>REMEMBER THE ARRAY STARTS FROM ZERO</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering4.png"><img src="../img/trtlsim doc/racering4.png" alt="" width=60%></a>
+
+<hr>
+
+ <a href="../img/trtlsim doc/racering5.png"><img src="../img/trtlsim doc/racering5.png" alt="" width=60%></a>
+<p>
+Once you are done with placing racerings, you will need to drop a coinspawner blueprint
+</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering6.png"><img src="../img/trtlsim doc/racering6.png" alt="" width=60%></a>
+<p>
+Next we link the coin spawner to the GOAL array on the FINAL race ring
+</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering7.png"><img src="../img/trtlsim doc/racering7.png" alt="" width=60%></a>
+<p>
+Click the inkdropper icon next to GOAL
+</p>
+<p>Click the coin  spawner BP</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering8.png"><img src="../img/trtlsim doc/racering8.png" alt="" width=60%></a>
+<p>
+Next we need to link all the race rings to the FIRST ring
+</p>
+<p>This makes the rings appear when the race starts</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering9.png"><img src="../img/trtlsim doc/racering9.png" alt="" width=60%></a>
+<p>
+Click the Inkdropper next to Ring 0
+</p>
+<p>Click on the Second ring</p>
+<p>Click the inkdropper next to Ring 1</p>
+<p>Click on the third ring</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering10.png"><img src="../img/trtlsim doc/racering10png" alt="" width=60%></a>
+<p>
+Finally, we can uncheck the START box on every ring apart form the starting ring
+</p>
+<hr>
+
+ <a href="../img/trtlsim doc/racering311png"><img src="../img/trtlsim doc/racering11.png" alt="" width=60%></a>
+<p>
+Now The timer is set up
+</p>
+<p>The rings are Linked</p>
+<p>And the Goal has been linked to the coin spawner</p>
+<hr>
+
+
+
+
+
+     <div id="nextbutton">
+   <a href="items.html"> <img id="back" src="../img/back.png" alt="back button" ></a>
+   <a href="mainchar.html"> <img id="next" src="../img/next.png" alt="next button" ></a>
+     </div>
+   </div>
+
+ </div>
+ <div id="footer">
+
+
+    <section id="newsletter">
+      <div id="container">
+
+
+          <a href="https://turtlecoin.lol/" target="_blank"><img src="../../img/trtllogo.png" alt="trtl logo" height="40" width="40"></a>
+          <a href="http://chat.turtlecoin.lol/" target="_blank"><img src="../../img/Discord.png" alt="discord logo" height="40" width="40"></a>
+          <a href="https://github.com/turtlecoin/turtlecoin/wiki" target="_blank"><img src="../../img/github.png" alt="github logo" height="40" width="40"></a>
+
+
+ <h1>Learn more about TurtleCoin </h1>
+</div>
+
+
+    </section>
+<div id="bot">
+
+
+
+      Oiboo's Game Emporium &copy; 2018
+    </div>
+   </div>
+   </div>
+ </body>
+</html>

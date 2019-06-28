@@ -12,10 +12,12 @@ document.write( '       <a href =\"trtlsnake.html\" ><img id="hov2" src=\"./img/
 document.write( '       <a href =\"trtlsimon.html\" ><img id="hov2" src=\"./img/trtlsimon_mini_box.png\" alt=\"Turtle Simon\"></a>\n' );
 document.write( '       <a href =\"mechatrtl.html\" ><img id="hov2" src=\"./img/mecha_trtl_mini_box.png\" alt=\"Hyper logo\"></a>\n' );
 document.write( '       <a href =\"trtlpuzzle.html\" ><img id="hov2" src=\"./img/trtl_puzz_mini_box.png\" alt=\"Trtl Puzzle\"></a>\n' );
-document.write( '       <a href =\"turtris.html\" ><img id="hov2" src=\"./img/turtris_mini_box.png\" alt=\"Turtris\"></a>\n' );
+document.write( '       <a href =\"trtris.html\" ><img id="hov2" src=\"./img/trtris_minibox.png\" alt=\"Trtris\"></a>\n' );
 document.write( '       <a href =\"bingo.html\" ><img id="hov2" src=\"./img/bingo_mini_box.png\" alt=\"Bingo\"></a>\n' );
 document.write( '       <a href =\"onepagetrtl.html\" ><img id="hov2" src=\"./img/10trtl.png\" alt=\"10trtl\"></a>\n' );
 document.write( '       <a href =\"Minecraft.html\" ><img id="hov2" src=\"./img/mine.png\" alt=\"minecraft trtl\"></a>\n' );
+document.write( '       <a href =\"turtleDice.html\" ><img id="hov2" src=\"./img/trtldice.png\" alt=\"Turtle Dice\"></a>\n' );
+document.write( '       <a href =\"trtlfarm.html\" ><img id="hov2" src=\"./img/trtl_farm.png\" alt=\"Turtle Farm\"></a>\n' );
 document.write( '\n' );
 document.write( '\n' );
 document.write( '    </div>\n' );
