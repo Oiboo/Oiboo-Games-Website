@@ -1,9 +1,13 @@
 # Oiboo-Games-Website
-Oiboo Games website backup
 
+Games.Turtacus.com
 
-Simple HTML5 Css website
+The site is now CI/CD and running from this source.
 
-Feel free to use it as a template or for educational purposes!
+If you have any broken links, you can now PR them here!
 
-Oiboo
+If you have a game you would like featured, pull the "Blank page" and fill in the relevant information!
+
+Peace
+
+ Oiboo
