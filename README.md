@@ -1,6 +1,6 @@
-# Oiboo-Games-Website
+# Turtlecoin Community Arcade Project
 
-Games.Turtacus.com
+TurtleArcade.Games
 
 
 
