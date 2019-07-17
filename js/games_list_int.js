@@ -4,6 +4,7 @@ document.write( '  <div class=\"row\">\n' );
 document.write( '    <div class=\"column\">\n' );
 document.write( '      <h2>Online</h2>\n' );
 document.write( '\n' );
+
 document.write( '       <a href =\"../swanson.html\" ><img id="hov2" src=\"../img/Swansom_mini_box.png\" alt=\"Swanson Clicker\"></a>\n' );
 document.write( '       <a href =\"../turtacus.html\" ><img id="hov2" src=\"../img/Turtacus_mini_box.png\" alt=\"Turtacus Colluseum\"></a>\n' );
 document.write( '       <a href =\"../trtldriver.html\" ><img id="hov2" src=\"../img/trtl_drive_mini_box.png\" alt=\"Trtl Drive\"></a>\n' );
@@ -23,6 +24,7 @@ document.write( '\n' );
 document.write( '    </div>\n' );
 document.write( '    <div class=\"column\">\n' );
 document.write( '       <h2>Download</h2>\n' );
+document.write( '       <a href =\"../chukwa.html\" ><img id="hov2"  src=\"../img/chukwa_minibox.png\" alt=\"chukwas labyrinth\"></a>\n' );
 document.write( '       <a href =\"../trtl_sim.html\"><img id="hov2" src=\"../img/trtlsim_mini_box.png\" alt=\"Turtle Simulator\"></a>\n' );
 document.write( '    </div>\n' );
 document.write( '  </div>\n' );
