@@ -19,6 +19,7 @@ document.write( '       <a href =\"../onepagetrtl.html\" ><img id="hov2" src=\".
 document.write( '       <a href =\"../Minecraft.html\" ><img id="hov2" src=\"../img/mine.png\" alt=\"minecraft trtl\"></a>\n' );
 document.write( '       <a href =\"../turtleDice.html\" ><img id="hov2" src=\"../img/trtldice.png\" alt=\"Turtle Dice\"></a>\n' );
 document.write( '       <a href =\"../Shellwars.html\" ><img id="hov2" src=\"../img/shellwars_minibox.png\" alt=\"shellwars\"></a>\n' );
+document.write( '       <a href =\"../Muf.html\" ><img id="hov2" src=\"../img/rps_mini.png\" alt=\"rock paper scissors\"></a>\n' );
 
 document.write( '\n' );
 document.write( '\n' );
