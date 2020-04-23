@@ -28,6 +28,7 @@ document.write( '    <div class=\"column\">\n' );
 document.write( '       <h2>Download</h2>\n' );
 document.write( '       <a href =\"/chukwa.html\" ><img id="hov2"  src=\"/img/chukwa_minibox.png\" alt=\"chukwas labyrinth\"></a>\n' );
 document.write( '       <a href =\"/trtl_sim.html\"><img id="hov2" src=\"/img/trtlsim_mini_box.png\" alt=\"Turtle Simulator\"></a>\n' );
+document.write( '       <a href =\"/turtleracing.html\"><img id="hov2" src=\"/img/race_mini_box.png\" alt=\"Turtle Racing\"></a>\n' );
 document.write( '    </div>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
